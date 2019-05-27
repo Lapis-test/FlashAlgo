@@ -26,7 +26,7 @@ setlocal
 cd %~dp0..\
 
 @rem See if we can find uVision. This logic is consistent with progen
-@set uv4exe=c:\Keil_v5\UV4\UV4.exe
+@set uv4exe=C:\Keil_v524a\UV4\UV4.exe
 @if exist %uv4exe% goto label1
 	@if [%UV4%]==[] goto error_nomdk
 set uv4exe=%UV4%

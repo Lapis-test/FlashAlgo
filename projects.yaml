@@ -164,3 +164,6 @@ projects:
     cc3220sf:
         - *module_tools
         - records/projects/ti/cc3220sf.yaml
+    ml7436:
+        - *module_tools
+        - records/projects/lapis/ML7436.yaml
